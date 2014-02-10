@@ -1,0 +1,11 @@
+CECS 424 Assignment 3
+
+Create a Ruby hash table with the words from the file f11as4.txt for 
+assignment 4. The key in the hash table will be the word and the value will 
+be the number of times it occurs in the file. You might create the file with 
+File.new. The "each" method will separate the file into words. Use "downcase" 
+to make each word lowercase and "delete" to remove non-alphabetic characters. 
+Do not include the empty string as a word. If the word is not in the table 
+add it with value one, otherwise increment the value by one. Use "sort" to 
+sort on the values, not the keys, and display the sorted hash table. Use 
+"select" to find the words that occur more than three times.
